@@ -1,0 +1,26 @@
+.ct-card-comment-item {
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--ct-color-br-quaternary);
+  border: solid 1px var(--ct-color-br-secondary);
+  max-width: 960px;
+  min-height: 74px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.ct-card-comment-item p {
+  font-size: 16px;
+  padding: 25px 20px;
+  color: var(--ct-color-font-secondary);
+}
+
+
+@media (max-width:320px) {
+
+  .ct-card-comment-item p {
+    text-align: left;
+  }
+
+}
